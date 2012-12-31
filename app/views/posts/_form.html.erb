@@ -1,0 +1,52 @@
+<% @post.tags.build %>
+<%= form_for(@post) do |post_form| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% @post.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= post_form.label :name %><br />
+    <%= post_form.text_field :name %>
+  </div>
+  <div class="field">
+    <%= post_form.label :address %><br />
+    <%= post_form.text_area :address %>
+  </div>
+  <div class="field">
+    <%= post_form.label :dob %><br />
+    <%= post_form.date_select :dob %>
+  </div>
+  <div class="field">
+    <%= post_form.label :desire %><br />
+    <%= post_form.text_area :desire %>
+  </div>
+  <div class="field">
+    <%= post_form.label :interest %><br />
+    <%= post_form.text_area :interest %>
+  </div>
+  <div class="field">
+    <%= post_form.label :hobby %><br />
+    <%= post_form.text_area :hobby %>
+  </div>
+  <div class="field">
+    <%= post_form.label :signature %><br />
+    <%= post_form.text_area :signature %>
+  </div>
+  <div class="actions">
+    <%= post_form.submit %>
+  </div>
+    <h2>Tags</h2>
+    <%= render :partial => 'tags/form',
+               :locals => {:form => post_form} %>
+    <div class="actions">
+      <%= post_form.submit %>
+    </div>
+<% end %>
