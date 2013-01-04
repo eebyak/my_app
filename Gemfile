@@ -42,3 +42,9 @@ gem 'jquery-rails'
 #  gem 'pg', '0.14.1'
 #end
 
+group :development, :test do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end

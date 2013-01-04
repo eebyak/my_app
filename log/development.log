@@ -5695,3 +5695,413 @@ Served asset /application.js - 304 Not Modified (1ms)
 
 Started GET "/assets/robyn.css?body=1" for 127.0.0.1 at 2013-01-04 12:08:06 +0100
 Served asset /robyn.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-04 13:22:46 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /index/home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /robyn.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/robyn.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /robyn.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:47 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /index/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /robyn.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/robyn.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /robyn.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-04 13:22:50 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-01-04 13:23:28 +0100
+Processing by PostsController#new as HTML
+  Rendered tags/_form.erb (2.0ms)
+  Rendered posts/_form.html.erb (127.0ms)
+  Rendered posts/new.html.erb within layouts/application (197.0ms)
+Completed 200 OK in 231ms (Views: 224.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /index/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /robyn.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /robyn.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:29 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"119mapg/7Er2Mengs+464+hHMNcpVsZZhuHeM87KFB4=", "post"=>{"name"=>"d", "address"=>"d", "dob(1i)"=>"2013", "dob(2i)"=>"1", "dob(3i)"=>"4", "desire"=>"d", "interest"=>"d", "hobby"=>"d", "signature"=>"dddddddddddddddddddddddddddddddd", "tags_attributes"=>{"0"=>{"name"=>""}}}, "commit"=>"Create Post"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO `posts` (`address`, `created_at`, `desire`, `dob`, `hobby`, `interest`, `name`, `signature`, `updated_at`) VALUES ('d', '2013-01-04 12:23:45', 'd', '2013-01-04', 'd', 'd', 'd', 'dddddddddddddddddddddddddddddddd', '2013-01-04 12:23:45')[0m
+  [1m[35m (4.0ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/posts/5
+Completed 302 Found in 30ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/posts/5" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+  [1m[35mTag Load (1.0ms)[0m  SELECT `tags`.* FROM `tags` WHERE `tags`.`post_id` = 5
+  [1m[36mComment Load (0.0ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`post_id` = 5[0m
+  Rendered collection (0.0ms)
+  Rendered comments/_form.erb (53.0ms)
+  Rendered posts/show.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 116ms (Views: 110.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /index/home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /robyn.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/robyn.js?body=1" for 127.0.0.1 at 2013-01-04 13:23:45 +0100
+Served asset /robyn.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts/5/comments" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"119mapg/7Er2Mengs+464+hHMNcpVsZZhuHeM87KFB4=", "comment"=>{"commenter"=>"jkjlkj", "body"=>"jklkjlkj"}, "commit"=>"Create Comment", "post_id"=>"5"}
+  [1m[35mPost Load (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `comments` (`body`, `commenter`, `created_at`, `post_id`, `updated_at`) VALUES ('jklkjlkj', 'jkjlkj', '2013-01-04 12:24:03', 5, '2013-01-04 12:24:03')
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/posts/5
+Completed 302 Found in 7ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/5" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPost Load (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+  [1m[36mTag Load (0.0ms)[0m  [1mSELECT `tags`.* FROM `tags` WHERE `tags`.`post_id` = 5[0m
+  [1m[35mComment Load (0.0ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`post_id` = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+  Rendered comments/_comment.erb (27.0ms)
+  Rendered comments/_form.erb (3.0ms)
+  Rendered posts/show.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /comments.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /index/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /robyn.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /robyn.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:03 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT `posts`.* FROM `posts` 
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /comments.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/index/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /index/home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /robyn.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/robyn.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /robyn.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-04 13:24:09 +0100
+Served asset /application.js - 304 Not Modified (1ms)
